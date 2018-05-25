@@ -1,0 +1,38 @@
+<?php
+
+function getChannelNumber($channel)
+{
+    $data = [
+        'France 2' => 2,
+        'France 3' => 3,
+        'RMC Découverte' => 24,
+        'Arte' => 7,
+        //'La Chaîne parlementaire' => 13,
+        '6ter' => 22,
+        'C8' => 8,
+        'M6' => 6,
+        'Chérie 25' => 25,
+        'France 5' => 5,
+        'Gulli' => 18,
+        'HD1' => 20,
+        //'NRJ 12'=> 12,
+        'NT 1'=>11,
+        'TMC'=> 10,
+        'W9'=> 9,
+        'BFM TV' => 15,
+        'France 4' => 14,
+        'LCI' => 26,
+        'TF1' => 1,
+        'CNEWS' => 16,
+        'CSTAR' => 17,
+        'France Ô' => 19,
+        'L\'Equipe' => 21,
+        'Numéro 23' => 23,
+        'Franceinfo' => 27,
+    ];
+
+    if (!isset($data[$channel])) {
+        return null;
+    }
+    return $data[$channel];
+}
