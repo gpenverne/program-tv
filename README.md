@@ -31,4 +31,4 @@ $ cron.sh
 
 ## channels.php
 Le fichier channel.php fait la correspondance entre les noms de chaînes et leur numéros.
-En commentant une chaîne, cela l'exclue de la recherche.
+En commentant une chaîne, cela l'exclut de la recherche.
