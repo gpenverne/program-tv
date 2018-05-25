@@ -9,7 +9,7 @@ $ ./run.php "scènes de ménage"
 # Ok j'ai mis scènes de ménage sur m6
 ```
 
-## Callback
+## Callback
 Le fichier ``callback.php`` est appelé lorsqu'un programme est trouvé.
 Le fichier est généré depuis ``callback.php.dist``
 Les infos sur le programme sont récupérables comme suit:
